@@ -1,0 +1,27 @@
+{
+  "name": "heyapi-routes",
+  "version": "1.0.0",
+  "description": "Custom Hey API plugin to generate typed route definitions from OpenAPI operations",
+  "main": "index.ts",
+  "types": "types.d.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "heyapi",
+    "plugin",
+    "openapi",
+    "routes",
+    "typescript",
+    "codegen"
+  ],
+  "author": "0xself",
+  "license": "MIT",
+  "devDependencies": {
+    "@hey-api/openapi-ts": "^0.78.0",
+    "typescript": "^5.8.3"
+  }
+}
